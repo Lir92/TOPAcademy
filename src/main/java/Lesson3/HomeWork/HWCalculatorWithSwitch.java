@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class HWCalculatorWithSwitch {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-//        System.out.println("Введите первое число");
+        System.out.println("Введите первое число");
         double a = scanner.nextDouble();
-//        System.out.println("Введите операцию");
+        System.out.println("Введите операцию");
         String operation = scanner.next();
-//        System.out.println("Введите второе число");
+        System.out.println("Введите второе число");
         double b = scanner.nextDouble();
 
         switch (operation) {
