@@ -26,7 +26,7 @@ public class Book {
     @Override
     public String toString() {
         return "Книга: " +
-                ", Название '" + name + '\'' +
+                "Название '" + name + '\'' +
                 ", Автор " + author + ", Год издания " + dateOfPublish;
     }
 }
