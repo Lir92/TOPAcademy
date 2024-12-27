@@ -19,6 +19,10 @@ public class Book {
         return author;
     }
 
+    public int getDateOfPublish() {
+        return dateOfPublish;
+    }
+
     @Override
     public String toString() {
         return "Книга: " +
